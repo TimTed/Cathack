@@ -173,8 +173,7 @@ def log_menu_s():
     elif s == '3':
         os.system('xdg-open https://www.TimmyTedy.blogspot.com')
     else:
-        print ''
-        print '\\ Select valid option '
+        print '' 
         print ''
         log_menu_s()
 
@@ -258,7 +257,7 @@ def menu():
 
     os.system('clear')
     print logo
-    tok = open('/sdcard/.hst.txt', 'r').read()
+    tok = open('/sdcard/.Timmy.txt', 'r').read()
     print '  \033[1;92mLogged in user: \033[1;94m' + z
     print 47 * '-'
     print ' \033[1;90m Active token: \033[1;94m' + tok
